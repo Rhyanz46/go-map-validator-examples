@@ -1,0 +1,1 @@
+Examples of https://github.com/Rhyanz46/go-map-validator

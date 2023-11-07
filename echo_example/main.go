@@ -7,10 +7,16 @@ import (
 	"reflect"
 )
 
+type LoginData struct {
+	Email string `map_validator:"email"`
+	Pw    string `map_validator:"password"`
+}
+
 func handleLogin(c echo.Context) error {
+	data := &LoginData{}
 	jsonHttp, err := map_validator.NewValidateBuilder().SetRules(map[string]map_validator.Rules{
-		"email":    {Email: true, Max: map_validator.ToPointer[int](100)},
-		"password": {Type: reflect.String, Min: map_validator.ToPointer[int](6), Max: map_validator.ToPointer[int](30)},
+		"email":    {Email: true, Max: map_validator.SetTotal(100)},
+		"password": {Type: reflect.String, Min: map_validator.SetTotal(6), Max: map_validator.SetTotal(30)},
 	}).LoadJsonHttp(c.Request())
 	if err != nil {
 		switch err {
@@ -27,9 +33,15 @@ func handleLogin(c echo.Context) error {
 			"message": "internal server error",
 		})
 	}
-	err = jsonHttp.RunValidate()
+	jsonData, err := jsonHttp.RunValidate()
 	if err != nil {
 		return c.JSON(http.StatusBadRequest, map[string]string{
+			"message": err.Error(),
+		})
+	}
+	err = jsonData.Bind(data)
+	if err != nil {
+		return c.JSON(http.StatusInternalServerError, map[string]string{
 			"message": err.Error(),
 		})
 	}

@@ -1,5 +1,7 @@
 github.com/Rhyanz46/go-map-validator v0.0.1 h1:sMPzWG5g/kZLokqqZcnoQ1uoqhUJi1KYljCK64lRrI0=
 github.com/Rhyanz46/go-map-validator v0.0.1/go.mod h1:avUE2ASGtVNNBlDhvTqPeOTbdQcoVwwFNUJSj6pizOE=
+github.com/Rhyanz46/go-map-validator v0.0.10 h1:nFSqjhnFXySNhb20NfhDRitBkD8v2CziNURhS2Otv5Y=
+github.com/Rhyanz46/go-map-validator v0.0.10/go.mod h1:E9ZQcj0/6VjvKqn2L22/T8NlSIaqFOJ8yzse4W9rk58=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/google/uuid v1.4.0 h1:MtMxsa51/r9yyhkyLsVeVt0B+BGQZzpQiTQ4eHZ8bc4=
