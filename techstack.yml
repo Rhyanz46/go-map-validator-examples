@@ -1,0 +1,186 @@
+repo_name: Rhyanz46/go-map-validator-examples
+report_id: 0d9cbdf202866b78d0c605e9a7649659
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-17T02:59:48+00:00'
+requested_by: Rhyanz46
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples
+  detection_source: Repo Metadata
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.mod
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples
+  detection_source: Repo Metadata
+- name: bytebufferpool
+  description: Anti-memory-waste byte buffer pool
+  package_url: https://pkg.go.dev/github.com/valyala/bytebufferpool
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: fasttemplate
+  description: Simple and fast template engine for Go
+  package_url: https://pkg.go.dev/github.com/valyala/fasttemplate
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: gommon
+  description: Common packages for Go
+  package_url: https://pkg.go.dev/github.com/labstack/gommon
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Rhyanz46/go-map-validator-examples/blob/main/echo_example/go.sum
+  detection_source: echo_example/go.mod
+  last_updated_by: Rhyanz46
+  last_updated_on: 2023-11-06 22:46:53.000000000 Z
